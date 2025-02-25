@@ -1,6 +1,9 @@
 import express from "express";
 import connectDB from "./config/db.mjs";
 
+import Doctor from "./models/Doctor.mjs";
+import Appointment from "./models/Appointment.mjs";
+
 const app = express();
 
 //Connect to MongoDB
